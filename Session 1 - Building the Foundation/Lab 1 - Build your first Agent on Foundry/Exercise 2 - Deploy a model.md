@@ -48,7 +48,7 @@ This is **model strategy** in practice — including the deployment-name indirec
 
 ### Task 2.2: Deploy the embedding model
 
-1. Return to **Build → Deployments** and click **Deploy a base model** again.
+1. Return to **Build → Model → Deployments** and click **Deploy a base model** again.
 
 2. Search the catalogue for `text-embedding` and select a current embedding model. Confirm the type reads **Embeddings**.
 
@@ -68,7 +68,7 @@ This is **model strategy** in practice — including the deployment-name indirec
 
 1. From the deployment details pane, click **Open in playground**.
 
-2. Check the **Model** selector at the top reads **`gpt-chat`** — your deployment name, not the model name.
+2. Check the **Model** selector at the top reads **`gpt-chat`** — your deployment name, not the model name. open the playground or double click
 
 3. Send this prompt:
 
