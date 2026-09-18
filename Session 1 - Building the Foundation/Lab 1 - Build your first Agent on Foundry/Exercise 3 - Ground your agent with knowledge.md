@@ -34,9 +34,9 @@ Foundry does not host your documents. Knowledge sources point at systems that al
 
     > 💰 The default redundancy is **GRS**, which replicates to a second region and costs roughly twice LRS. For disposable lab data that is waste. Redundancy is a per-workload decision — match it to how bad it would be to lose the data, not to the default.
 
-2. Open the account, go to **Containers**, and add a container named `contoso-catalogue`. Leave the access level **Private**.
+2. Open the account, click storage browser from left, go to **Containers**, and add a container named `contoso-catalogue`. Leave the access level **Private**.
 
-3. **Grant yourself blob data access before you try to upload.** On the storage account, open **Access control (IAM) → + Add → Add role assignment**, choose **Storage Blob Data Contributor**, and assign it to your own user.
+3. **Grant yourself blob data access before you try to upload.** On the storage account, open **Access control (IAM) → + Add → Add role assignment**, choose **Storage Blob Data Contributor**,Select members and assign it to your own user.
 
     > ⚠️ **Owner is not enough, and this catches almost everyone.** Owner and Contributor are **control-plane** roles: they let you create and configure the storage account but grant **no access to the data inside it**. Uploading a blob is a *data-plane* operation and needs a `Storage Blob Data *` role.
     >
